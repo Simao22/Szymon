@@ -1,0 +1,41 @@
+System kontroli wersji jest to oprogramowanie s³u¿¹ce do œledzenia 
+zmian g³ównie w kodzie Ÿród³owym oraz pomocy programistom w ³¹czeniu 
+zmian dokonanych przez wiele osób w ró¿nych momentach. 
+
+Typowy "workflow" posiada trzy stany plikow i odpowiadajace im sekcje projektu:
+-stan plików: working directory(katalog roboczy)-->sekcja:modified(zmodyfikowany)
+-stan plików: staging area(przechowalnia)-->sekcja:staged(w przechowalni)
+-stan plików: repository(repozytorium)-->sekcja:commited(zatwierdzony)
+Typowy sposób pracy wygl¹da nastêpuj¹co:
+1. Pliki tworzymy i modyfikujemy w KATALOGU ROBOCZYM.
+2. Jeœli chcemy, by zmiany zosta³y uwzglêdnione, pliki przenosimy do PRZECHOWALNI.
+3. Gdy chcemy zachowaæ bie¿¹cy stan projektu w REPOZYTORIUM, zatwierdzamy zmiany.
+
+W rozproszonym systemie kontroli wersji nie jest wymagany ciagly dostep 
+do centralnego repozytorium. W scentralizowanym istnieje jedno centralne 
+repozytorium, z ktorym wszyscy uzytkownicy systemu synchronizuja swoje zmiany.
+
+Polecenia:
+ Init- s³u¿y do zainicjowania nowego repozytorium.
+ Clone- tworzy kopie ju¿ istniej¹cego repozytorium GITA.
+ Add- dodaje zmienione pliki do wirtualnej listy, któr¹ za chwile zapiszemy u¿ywaj¹c 
+polecenia COMMIT.
+ Status- wyœwietla aktualny status pracy nad projektem. Dziêki niemu zobaczymy, które
+pliki by³y modyfikowane, ale nie zosta³y jeszcze zapisane poleceniem COMMIT.
+ Diff- tworzy plik ró¿nicowy, jako rezultat porównywania dwóch plików przy pomocy tego 
+polecenia.
+ Commit- zapisuje aktualny stan naszego projektu.
+ Reset- resetuje zmiany w lokalnym repozytorium.
+ Rm- usuwa plik ze zbioru plików œledzonych oraz katalogu roboczego.
+ MV- zmiany nazwy plików w repozytorium
+ Branch- w naszym projekcie jest to dzia³, sekcja, ga³¹Ÿ kodu.
+ Checkout- mo¿êmy przel¹czaæ siê pomiêdzy ró¿nymi ga³êziami kodu w naszym projekcie 
+(utworzonymi za pomoc¹ polecenia branch).
+ Merge- ³¹czy dwie ga³êzie rozwi¹zuj¹c proste konflikty.
+ Log- s³u¿y do przejrzenia historii zmian dokonanych w projekcie. Mo¿emy sprawdziæ, 
+jak rozwija³ siê nasz projekt.
+ Stash- pozwala na od³o¿enie na bok dotychczasowego projektu (do szufladki), 
+poczym dokonujemy zmian, zapisujemy je i powracamy do od³o¿onej szufladki.
+ Pull- pobiera dane z serwera, na bazie którego orginalnie stworzyliœmy repozytorium 
+i próbuje automatycznie scaliæ zmiany z kodem roboczym, na którym aktualnie pracujemy.
+ Push- wysy³a zmiany do orginalnego repozytorium.

@@ -29,7 +29,7 @@ polecenia.
  Rm- usuwa plik ze zbioru plików œledzonych oraz katalogu roboczego.
  MV- zmiany nazwy plików w repozytorium
  Branch- w naszym projekcie jest to dzia³, sekcja, ga³¹Ÿ kodu.
- Checkout- mo¿êmy przel¹czaæ siê pomiêdzy ró¿nymi ga³êziami kodu w naszym projekcie 
+ Checkout- mo¿êmy prze³¹czaæ siê pomiêdzy ró¿nymi ga³êziami kodu w naszym projekcie 
 (utworzonymi za pomoc¹ polecenia branch).
  Merge- ³¹czy dwie ga³êzie rozwi¹zuj¹c proste konflikty.
  Log- s³u¿y do przejrzenia historii zmian dokonanych w projekcie. Mo¿emy sprawdziæ, 

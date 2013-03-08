@@ -1,0 +1,28 @@
+Zasada dzia³ania ga³êzi git'a- Ga³¹Ÿ w Gicie jest po prostu lekkim, 
+przesuwalnym wskaŸnikiem na któryœ z owych zestawów zmian. Domyœlna 
+nazwa ga³êzi Gita to master. Kiedy zatwierdzasz pierwsze zmiany, 
+otrzymujesz ga³¹Ÿ master, która wskazuje na ostatni zatwierdzony 
+przez ciebie zestaw. Z ka¿dym zatwierdzeniem automatycznie przesuwa 
+siê ona do przodu. Git nie przechowuje danych jako serii zmian i ró¿nic, 
+ale jako zestaw migawek. Kiedy zatwierdzasz zmiany w Gicie, ten zapisuje obiekt 
+zmian (commit), który z kolei zawiera wskaŸnik na migawkê zawartoœci, która w danej 
+chwili znajduje siê w poczekalni, metadane autora i opisu oraz zero lub wiêcej 
+wskaŸników na zmiany, które by³y bezpoœrednimi rodzicami zmiany w³aœnie zatwierdzanej: 
+brak rodziców w przypadku pierwszej, jeden w przypadku zwyk³ej, oraz kilka w przypadku 
+zmiany powsta³ej wskutek scalenia dwóch lub wiêcej ga³êzi.
+
+Domyœlna nazwa rozwoju nosi nazwê MASTER
+
+Head- pozwala stwierdziæ, na której ga³êzi aktualnie siê znajdujemy. W Gicie jest to wskaŸnik 
+na lokaln¹ ga³¹Ÿ, na której w³aœnie siê znajdujesz. 
+
+git commit- zapisuje obiekt zmian, gdy zatwierdzasz zmiany w Gicie.
+
+git branch- tworzy now¹ ga³¹Ÿ,innaczej nowy wskaŸnik na ten sam zestaw zmian, w którym 
+aktualnie siê znajdujesz.
+
+git checkout- polecenie to s³u¿y do prze³¹czania siê na ju¿ istniej¹c¹ ga³¹Ÿ.
+
+git merge- integruje zmiany z jednej ga³êzi do drugiej poprzez scalanie
+
+git rebase- integruje zmiany z jednej ga³êzi do drugiej poprzez zmianê bazy

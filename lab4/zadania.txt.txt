@@ -1,0 +1,19 @@
+Wyœwietlenie informacji o poleceniach (pomocy)- help
+Wyœwietlanie zawartoœci bie¿¹cego katalogu- dir
+Utworzenie katalogu o nazwie 'katalog'- md (lub mkdir) <nazwa>
+Utworzenia pliku o nazwie 'plik.txt'- touch <plik.txt>
+Wyœwietlenie zawartoœci pliku 'plik.txt'-type
+Przejœcie do katalogu nadrzêdnego- cd..
+Przejœcie do katalogu 'lab4'- cd<lab4>
+Zmianê nazwy pliku 'plik.txt' na 'inny_plik.txt'-Ren (lub Rename) <plik.txt><inny_plik.txt>
+
+Komendy Gita:
+Podgl¹d wszystkich zatwierdzonych zmian- git log
+Podgl¹d wprowadzonych w repozytorium zmian-git diff
+Podgl¹d wprowadzonych zmian plików które s¹ juz w przechowalni- git diff--staged
+Podgl¹d zmian wprowadzonych w danym pliku- git status
+Usuwanie plików z repozytorium- git rm
+Dodawanie plików do przechowalni-git add
+Usuwanie plików z przechowalni- git reset head
+Przenoszenie plików znajduj¹cych siê w przechowalni do innej ga³êzi- git stash
+Usuwanie ga³êzi- git branch -d

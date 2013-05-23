@@ -1,0 +1,23 @@
+Diagram klas – w ujednoliconym jêzyku modelowania, to statyczny diagram strukturalny, przedstawiaj¹cy 
+strukturê systemu w modelach obiektowych przez ilustracjê struktury klas i zale¿noœci miêdzy nimi.
+
+Asocjacja- wskazuje na trwa³e powi¹zanie pomiêdzy obiektami danych klas. 
+Na diagramie asocjacjê oznacza siê za pomoc¹ linii zakoñczonej strza³k¹ (skierowan¹ od klasy Ÿród³owej do docelowej). 
+Nazwê cechy wraz z krotnoœci¹ umieszcza siê w punkcie docelowym asocjacji(np. firma zatrudnia pracowników,
+uczeñ uczy siê w szkole, maszynista prowadzi poci¹gi).
+
+Agregacja- najproœciej mówi¹c oznacza zawieranie. Reprezentuje zwi¹zek typu ca³oœæ-czêœæ. Wystêpuje tutaj 
+relacja posiadania — co oznacza, ¿e elementy czêœciowe mog¹ nale¿eæ do wiêkszej ca³oœci, jednak równie¿ mog¹ 
+istnieæ bez niej. Na diagramie agregacjê oznacza siê za pomoc¹ linii zakoñczonej pustym rombem (np. stó³ posiada
+nogi, komputer zawiera procesor, gitara zawiera struny).
+
+Kompozycja- jest szczególnym przypadkiem agregacji. Od agregacji ró¿ni siê tym, ¿e klasa posiada obiekty 
+(sk³ada siê z obiektów), które bez tej klasy istnieæ by nie mog³y. Na diagramie, kompozycjê oznacza siê 
+za pomoc¹ linii zakoñczonej wype³nionym rombem (np. Blok posiada mieszkania, kot posiada
+uszy, ³azienka posiada wannê).
+
+Generalizacja- odpowiada dziedziczeniu znanemu z jêzyków programowania. Inaczej mówi¹c, jest to zwi¹zek pomiêdzy 
+bardziej ogóln¹ klas¹ (rodzicem) a klas¹ bardziej szczegó³ow¹ (potomkiem). Na diagramie generalizacjê oznacza siê 
+za pomoc¹ niewype³nionego trójk¹ta symbolizuj¹cego strza³kê (np. latarnia i lampka nocna to lampy, kot jest zwierzêciem,
+sklep jest firm¹).
+
